@@ -1,3 +1,3 @@
-[![GPL License](http://darrienglasser.com/gpl-v3-logo.svg)](GPL License)
+[![GPL License](http://darrienglasser.com/gpl-v3-logo.png)](GPL License)
 
 # Add text describing project
