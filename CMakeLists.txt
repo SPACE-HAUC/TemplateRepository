@@ -1,4 +1,6 @@
 cmake_minimum_required (VERSION 2.8.12.2)
+
+# Change project name to desired name
 project (hello_world)
 
 set(CMAKE_CXX_FLAGS "-g -Wall")
@@ -9,4 +11,5 @@ include_directories(include)
 
 file(GLOB SOURCES "src/*.cpp")
 
-add_executable(satellite ${SOURCES})
+# Change name of executable to desired name
+add_executable(hello_world ${SOURCES})
