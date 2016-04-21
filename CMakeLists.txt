@@ -3,7 +3,7 @@ cmake_minimum_required (VERSION 2.8.12.2)
 # Change project name to desired name
 project (hello_world)
 
-set(CMAKE_CXX_FLAGS "-g -Wall")
+set(CMAKE_CXX_FLAGS "-std=c++11 -g -Wall")
 set(EXECUTABLE_OUTPUT_PATH "${CMAKE_BINARY_DIR}/bin")
 
 # include directory for headers
